@@ -598,7 +598,7 @@ html {
         row-gap: 30px;
     }
 
-    @media screen and (max-width: 375px) {
+    @media screen and (max-width: 576px) {
         align-items: center;
     }
 }
@@ -606,7 +606,7 @@ html {
 .footer__addr {
     font-style: normal;
 
-    @media screen and (max-width: 375px) {
+    @media screen and (max-width: 576px) {
         order: 3;
     }
 }
@@ -615,7 +615,7 @@ html {
     color: var(--light-color, #f5f5f7);
     text-decoration: none;
 
-    @media screen and (max-width: 375px) {
+    @media screen and (max-width: 576px) {
         order: 2;
     }
 }
